@@ -46,7 +46,7 @@ private:
 	// Was this actor shrunk via mouse click?
 	bool b_ShrinkingByClick = false;
 	// The maximum range in which actors shrink on click
-	const float ShrinkRange = 150.0f;
+	const float ShrinkRange = 300.0f;
 	// Set this actor's scale to its minimum and do the same for all actors in ShrinkRange
 	void ShrinkConnected(TArray<AWaterLilyActor*> Actors);
 	// Set a new random color for the actor's petals
